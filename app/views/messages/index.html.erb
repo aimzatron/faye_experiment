@@ -9,7 +9,9 @@
   </ul>
 
   <%= form_for Message.new, remote: true do |f| %>
-    <%= f.text_field :content %>
+    <%= f.text_field :content, :placeholder => "message content" %>
+    <%= f.text_field :game_id, :placeholder => "Game id #" %>
+    <%= f.text_field :team_name, :placeholder => "team name" %>
     <%= f.submit "Send" %>
   <% end %>
 <div>

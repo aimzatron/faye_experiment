@@ -5,7 +5,7 @@ gem 'sqlite3'
 gem 'jquery-rails'
 gem 'faye'
 gem 'thin'
-
+gem 'rspec-rails'
 
 # Gems used only for assets and not required
 # in production environments by default.
