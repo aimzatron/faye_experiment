@@ -11,3 +11,20 @@
  *= require_self
  *= require_tree .
  */
+
+
+.chatbox{
+  border:2px solid;
+  border-radius:10px;
+  margin-left: 200px;
+  margin-top: 10px;
+  margin-right: 200px;
+}
+
+.team{
+  padding-left: 225px;
+}
+
+.title h1{
+  text-align: center;
+}
